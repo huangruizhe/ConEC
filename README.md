@@ -43,7 +43,7 @@ For earnings21/22 subsets, each contains the following directories:
 
 * `pdfs`: This directory contains presentation slides and press release for each earnings call in PDF format. They can be parsed by tools such as [pdftotext](https://github.com/jalan/pdftotext).
 * `participant_names`: The names and affiliation information of the earnings calls participants are usually known in advance. For example, companies often provide a mechanism for participating analysts and investors to register or submit questions ahead of time. We collect such information from [seekingalpha](https://seekingalpha.com/).
-* `*.txt`: these are the biasing word lists that we have extracted from the PDF files, with stop words, numerical values and irrelevant pages removed. The participant names and affliations are also added to the lists.
+* `*.txt`: these are the biasing word lists that we have extracted from the PDF files, with stop words, numerical values and irrelevant pages (e.g., the slides containing "forward-looking statement") removed. The participant names and affliations are also added to the lists.
 
 #### transcripts:
 
@@ -54,6 +54,6 @@ We follow the "*.nlp" [file format](https://github.com/revdotcom/speech-datasets
 * `wer_tags`: This directory contains the updated wer_tags files, which is supposed to replace the original wer_tag files in earnings21/22 repository.
 * `fixed_potential_errors_log`: Here are the log files for our semi-automatic transcription correction process.
 
-### Support or Contact
+### Support and contact information
 
 blah blah blah
