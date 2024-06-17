@@ -54,6 +54,10 @@ We follow the "*.nlp" [file format](https://github.com/revdotcom/speech-datasets
 * `wer_tags`: This directory contains the updated wer_tags files, which is supposed to replace the original wer_tag files in earnings21/22 repository.
 * `fixed_potential_errors_log`: Here are the log files for our semi-automatic transcription correction process.
 
+#### audios:
+
+They can be found in the earnings21/22 repos.
+
 ### Support and contact information
 
 blah blah blah
